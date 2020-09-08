@@ -119,7 +119,7 @@
 
     <?php if (isset($_POST['submit'])): ?>
         <div class="modal fade" id="modal">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Data Mahasiswa</h5>
@@ -128,11 +128,26 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <h3>Email: <b><?= $_POST['email'] ?></b></h3>
-                        <h3>Password: <b><?= $_POST['password'] ?></b></h3>
-                        <h3>Jenis Kelamin: <b><?= $_POST['Jenis_Kelamin'] ?></b></h3>
-                        <h3>Hobi: <b><?= $_POST['hobi'] ?></b></h3>
-                        <h3>Prodi: <b><?= $_POST['prodi'] ?></b></h3>
+                        <table class="table table-striped">
+                            <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Email</th>
+                                <th scope="col">Password</th>
+                                <th scope="col">JK</th>
+                                <th scope="col">Hobi</th>
+                                <th scope="col">Prodi</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><h3><b><?= $_POST['email'] ?></b></h3></td>
+                                <td><h3><b><?= $_POST['password'] ?></b></h3></td>
+                                <td><h3><b><?= $_POST['Jenis_Kelamin'] ?></b></h3></td>
+                                <td><h3><b><?= $_POST['hobi'] ?></b></h3></td>
+                                <td><h3><b><?= $_POST['prodi'] ?></b></h3></td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
