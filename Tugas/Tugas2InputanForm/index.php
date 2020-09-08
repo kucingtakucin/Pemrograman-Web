@@ -34,13 +34,13 @@
                 <div class="form-group row">
                     <label for="email" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" name="email" class="form-control" id="email">
+                        <input type="email" name="email" class="form-control" id="email" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="password" class="col-sm-2 col-form-label">Password</label>
                     <div class="col-sm-10">
-                        <input type="password" name="password" class="form-control" id="password">
+                        <input type="password" name="password" class="form-control" id="password" required>
                     </div>
                 </div>
                 <fieldset class="form-group">
@@ -48,13 +48,13 @@
                         <legend class="col-form-label col-sm-2 pt-0">Jenis Kelamin</legend>
                         <div class="col-sm-10">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Lakilaki" id="Lakilaki1" value="Laki-laki">
+                                <input class="form-check-input" type="radio" name="Jenis Kelamin" id="Lakilaki1" value="Laki-laki" >
                                 <label class="form-check-label" for="Lakilaki1">
                                     Laki-laki
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Perempuan" id="Perempuan2" value="Peremuan">
+                                <input class="form-check-input" type="radio" name="Jenis Kelamin" id="Perempuan2" value="Peremuan">
                                 <label class="form-check-label" for="Perempuan2">
                                     Perempuan
                                 </label>
@@ -66,9 +66,17 @@
                     <?php $hobbies = ['Ngoding', 'Membaca Buku', 'Main Game', 'Makan', 'Tidur'] ?>
                     <div class="col-sm-2">Hobi</div>
                     <div class="col-sm-10">
-                        <?php foreach ($hobbies as $hoby) : ?>
+                        <?php
+                        $total = '';
+                        $index = 0;
+                        foreach ($hobbies as $hoby) :
+                            if ($index === (count($hobbies) - 1)): $total .= $hoby;
+                            else: $total .= $hoby . ', ';
+                            endif;
+                            $index++;
+                        ?>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="<?= $hoby ?>">
+                                <input class="form-check-input" name="hobi" type="checkbox" value="<?= $total ?>" id="<?= $hoby ?>">
                                 <label class="form-check-label" for="<?= $hoby ?>">
                                     <?= $hoby ?>
                                 </label>
@@ -82,7 +90,8 @@
                         'Matematika',
                         'Fisika',
                         'Kimia',
-                        'Biologi'
+                        'Biologi',
+                        'Nonton Anime'
                     ] ?>
                     <div class="col-sm-2">
                         <label for="prodi">Program Studi</label>
@@ -97,7 +106,7 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <button type="submit" class="btn btn-lg btn-primary">Sign in</button>
+                        <button type="submit" name="submit" class="btn btn-lg btn-primary">Submit Data</button>
                     </div>
                 </div>
             </form>
@@ -107,9 +116,35 @@
     <footer>
         <h5 class="text-center mt-3 mb-5">Copyright &copy; 2020. Adam Arthur Faizal</h5>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <?php if (isset($_POST['submit'])): ?>
+        <div class="modal fade" id="modal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Data Mahasiswa</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Email: <b><?= $_POST['email'] ?></b></h3>
+                        <h3>Password: <b><?= $_POST['password'] ?></b></h3>
+                        <h3>Jenis Kelamin: <b><?= $_POST['Jenis_Kelamin'] ?></b></h3>
+                        <h3>Hobi: <b><?= $_POST['hobi'] ?></b></h3>
+                        <h3>Prodi: <b><?= $_POST['prodi'] ?></b></h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php endif ?>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
