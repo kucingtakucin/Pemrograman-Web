@@ -4,6 +4,7 @@
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599532256372</updated>
-      <workItem from="1599532261128" duration="5237000" />
+      <workItem from="1599532261128" duration="5822000" />
     </task>
     <servers />
   </component>
