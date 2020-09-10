@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tugas/latihan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/.~lock.Tugas2_M3119001.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Mas Abik/tugas1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas2_M3119001.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas2_M3119001.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599532256372</updated>
       <workItem from="1599532261128" duration="11124000" />
-      <workItem from="1599720231222" duration="2190000" />
+      <workItem from="1599720231222" duration="5621000" />
     </task>
     <servers />
   </component>
@@ -77,10 +77,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="340" y="27" width="703" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1599720766630" />
-    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog" timestamp="1599549804280">
+    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog" timestamp="1599726088641">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1599549804280" />
+    <state x="478" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1599726088641" />
     <state x="1575" y="85" width="1022" height="737" key="SettingsEditor" timestamp="1599533628595">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
