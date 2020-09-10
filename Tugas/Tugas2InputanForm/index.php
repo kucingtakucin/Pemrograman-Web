@@ -69,29 +69,25 @@
                         <?php
                         $total = '';
                         $index = 0;
-                        foreach ($hobbies as $hoby) :
-                            if ($index === (count($hobbies) - 1)): $total .= $hoby;
-                            else: $total .= $hoby . ', ';
-                            endif;
-                            $index++;
-                        ?>
+                        foreach ($hobbies as $hoby) : ?>
                             <div class="form-check">
-                                <input class="form-check-input" name="hobi" type="checkbox" value="<?= $total ?>" id="<?= $hoby ?>">
+                                <input class="form-check-input" name="hobi<?= $index ?>" type="checkbox" value="<?= $hoby ?>" id="<?= $hoby ?>">
                                 <label class="form-check-label" for="<?= $hoby ?>">
                                     <?= $hoby ?>
                                 </label>
                             </div>
-                        <?php endforeach; ?>
+                        <?php $index++; endforeach; ?>
+                        <input type="hidden" name="hobi" value="<?= $total ?>">
                     </div>
                 </div>
                 <div class="form-group row">
                     <?php $studies = [
                         'Teknik Informatika',
                         'Matematika',
+                        'Nonton Anime',
                         'Fisika',
                         'Kimia',
                         'Biologi',
-                        'Nonton Anime'
                     ] ?>
                     <div class="col-sm-2">
                         <label for="prodi">Program Studi</label>
@@ -128,6 +124,16 @@
                         </button>
                     </div>
                     <div class="modal-body">
+                        <?php
+                        for ($i = 0, $iMax = count($hobbies); $i < $iMax; $i++):
+                            if (isset($_POST["hobi$i"])):
+                                if ($i === count($hobbies) - 1) {
+                                    $total .= $_POST["hobi$i"];
+                                } else {
+                                    $total .= $_POST["hobi$i"] . ', ';
+                                }
+                            endif;
+                        endfor ?>
                         <div class="table-responsive">
 
                             <table class="table table-striped">
@@ -145,7 +151,7 @@
                                     <td><h3><b><?= $_POST['email'] ?></b></h3></td>
                                     <td><h3><b><?= $_POST['password'] ?></b></h3></td>
                                     <td><h3><b><?= $_POST['Jenis_Kelamin'] ?></b></h3></td>
-                                    <td><h3><b><?= $_POST['hobi'] ?></b></h3></td>
+                                    <td><h3><b><?= $total ?></b></h3></td>
                                     <td><h3><b><?= $_POST['prodi'] ?></b></h3></td>
                                 </tr>
                                 </tbody>

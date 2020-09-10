@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tugas/latihan.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas2InputanForm/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas2_M3119001.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hD4IIXTpRceZY8oav4q9Z8DRLH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,9 +35,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -55,18 +57,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599532256372</updated>
-      <workItem from="1599532261128" duration="5822000" />
+      <workItem from="1599532261128" duration="11124000" />
+      <workItem from="1599720231222" duration="2190000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1833" y="191" width="486" height="587" key="#HTTP_Proxy" timestamp="1599533563093">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state x="1833" y="191" width="486" height="587" key="#HTTP_Proxy/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1599533563093" />
+    <state x="340" y="27" width="703" height="741" key="#PHP" timestamp="1599720766630">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="340" y="27" width="703" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1599720766630" />
+    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog" timestamp="1599549804280">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1599549804280" />
     <state x="1575" y="85" width="1022" height="737" key="SettingsEditor" timestamp="1599533628595">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
