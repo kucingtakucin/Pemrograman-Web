@@ -27,16 +27,16 @@
     <main>
         <div class="container d-flex flex-column align-items-center justify-content-center">
             <h1 class="font-weight-bold text-center mt-4 mb-4">ARTHUR'S CALCULATOR</h1>
-            <form>
+            <form class="mb-5" method="post">
                 <div class="form-row">
                     <div class="col-auto">
                         <label>
-                            <input type="text" class="form-control" placeholder="Angka 1">
+                            <input type="number" class="form-control" name="angka1" placeholder="Angka 1" required>
                         </label>
                     </div>
                     <div class="col-auto">
                         <label>
-                            <select class="custom-select" >
+                            <select class="custom-select" name="operator" required>
                                 <option disabled selected>Operator</option>
                                 <option value="+">+</option>
                                 <option value="-">-</option>
@@ -47,21 +47,74 @@
                     </div>
                     <div class="col-auto">
                         <label>
-                            <input type="text" class="form-control" placeholder="Angka 2">
+                            <input type="number" class="form-control" name="angka2" placeholder="Angka 2" required>
                         </label>
                     </div>
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary">Hitung</button>
+                        <button type="submit" class="btn btn-primary" name="hitung">Hitung</button>
                     </div>
                 </div>
             </form>
         </div>
     </main>
     <footer>
-
+        <h5 class="text-center font-italic">Copyright &copy; 2020. Adam Arthur Faizal</h5>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Modal-->
+    <?php if (isset($_POST['hitung'])):
+        $hasil = 0;
+        switch ($_POST['operator']) {
+            case "+":
+                $hasil = (int)$_POST['angka1'] + (int)$_POST['angka2'];
+                $_POST['keterangan'] = 'Penjumlahan';
+                break;
+            case "-":
+                $hasil = (int)$_POST['angka1'] - (int)$_POST['angka2'];
+                $_POST['keterangan'] = 'Pengurangan';
+                break;
+            case "*":
+                $hasil = (int)$_POST['angka1'] * (int)$_POST['angka2'];
+                $_POST['keterangan'] = 'Perkalian';
+                break;
+            case "/":
+                $hasil = (int)$_POST['angka1'] / (int)$_POST['angka2'];
+                $_POST['keterangan'] = 'Pembagian';
+                break;
+            default:
+                echo "<h1>Masukkan Operator nya</h1>";
+                die;
+        } ?>
+        <div class="modal fade" id="modal-hasil">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Hasil <?= $_POST['keterangan'] ?></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Hasil <b><?= $_POST['keterangan'] ?></b>nya adalah <b><?= $hasil ?></b></h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php endif ?>
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            if (document.getElementById('modal-hasil')) {
+                $('#modal-hasil').modal('show')
+            }
+        });
+    </script>
 </body>
 </html>
