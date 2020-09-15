@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tugas/MasAbik/Tugas1_M3119001_MasAbik.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/MasAbik/Tugas2_M3119001.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/MasAbik/Tugas2_M3119001.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/MasAbik/Tugas2_M3119001.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/MasAbik/pertemuan2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas3_M3119001.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Mas Abik/tugas2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/MasAbik/pertemuan1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas2_M3119001.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tugas/Tugas3VariableOperator/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas3VariableOperator/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +65,8 @@
       <updated>1599532256372</updated>
       <workItem from="1599532261128" duration="11124000" />
       <workItem from="1599720231222" duration="6823000" />
-      <workItem from="1600131974628" duration="4052000" />
+      <workItem from="1600131974628" duration="6214000" />
+      <workItem from="1600148422002" duration="8030000" />
     </task>
     <servers />
   </component>
@@ -76,11 +85,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="340" y="27" width="703" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1599720766630" />
-    <state x="1870" y="355" width="399" height="164" key="NewPhpFileDialog" timestamp="1600132092120">
+    <state x="1870" y="355" width="399" height="164" key="NewPhpFileDialog" timestamp="1600148489951">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1599549804280" />
-    <state x="1870" y="355" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600132092120" />
+    <state x="1870" y="355" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600148489951" />
     <state x="478" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1599726088641" />
     <state x="1575" y="85" width="1022" height="737" key="SettingsEditor" timestamp="1599533628595">
       <screen x="1366" y="0" width="1440" height="900" />

@@ -78,7 +78,7 @@
                 $_POST['keterangan'] = 'Perkalian';
                 break;
             case "/":
-                $hasil = (int)$_POST['angka1'] / (int)$_POST['angka2'];
+                $hasil = (int)$_POST['angka1'] / (int)$_POST['angka2']; 
                 $_POST['keterangan'] = 'Pembagian';
                 break;
             default:
