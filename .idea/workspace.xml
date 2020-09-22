@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="8" />
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="AutoImportSettings">
@@ -9,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas4Percabangan/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,9 @@
       <workItem from="1600148422002" duration="8638000" />
       <workItem from="1600224492018" duration="1536000" />
       <workItem from="1600228214776" duration="642000" />
+      <workItem from="1600327751308" duration="3736000" />
+      <workItem from="1600736691506" duration="284000" />
+      <workItem from="1600738754982" duration="4786000" />
     </task>
     <servers />
   </component>
@@ -86,25 +88,30 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="340" y="27" width="703" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1599720766630" />
-    <state x="415" y="246" width="525" height="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600226221504">
+    <state x="415" y="246" width="525" height="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600327822789">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="415" y="246" width="525" height="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1600226221504" />
-    <state x="1870" y="355" width="399" height="164" key="NewPhpFileDialog" timestamp="1600148489951">
-      <screen x="1366" y="0" width="1440" height="900" />
+    <state x="415" y="246" width="525" height="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1600327822789" />
+    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog" timestamp="1600327784761">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1599549804280" />
     <state x="1870" y="355" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600148489951" />
-    <state x="478" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1599726088641" />
+    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1600327784761" />
     <state x="198" y="31" width="970" height="737" key="SettingsEditor" timestamp="1600226200698">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="1575" y="85" width="1022" height="737" key="SettingsEditor/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1599533628595" />
     <state x="198" y="31" width="970" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1600226200698" />
-    <state x="363" y="187" width="672" height="559" key="search.everywhere.popup" timestamp="1600226207261">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1600329953151">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1600329953151" />
+    <state x="1876" y="233" width="945" height="815" key="search.everywhere.popup" timestamp="1600740509371">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
     <state x="1749" y="194" width="672" height="678" key="search.everywhere.popup/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600136474821" />
-    <state x="363" y="187" width="672" height="559" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600226207261" />
+    <state x="1876" y="233" width="945" height="815" key="search.everywhere.popup/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1600740509371" />
+    <state x="363" y="187" width="672" height="559" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600327817319" />
   </component>
 </project>
