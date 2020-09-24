@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tugas/MasAbik/Pertemuan5/bukutamu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tugas/MasAbik/Pertemuan4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,6 +52,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="copyright.filetypes.PHP" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tugas/MasAbik/Pertemuan4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tugas/MasAbik/Pertemuan4" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +78,8 @@
       <workItem from="1600327751308" duration="3736000" />
       <workItem from="1600736691506" duration="284000" />
       <workItem from="1600738754982" duration="5832000" />
+      <workItem from="1600755963800" duration="9841000" />
+      <workItem from="1600933569845" duration="3862000" />
     </task>
     <servers />
   </component>
@@ -91,21 +102,23 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="415" y="246" width="525" height="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1600327822789" />
-    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog" timestamp="1600327784761">
+    <state x="478" y="319" width="284" height="164" key="NewPhpFileDialog" timestamp="1600934323427">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1599549804280" />
     <state x="1870" y="355" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600148489951" />
-    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1600327784761" />
+    <state x="478" y="319" width="284" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1600763222548" />
+    <state x="2038" y="426" key="NewPhpFileDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1600756119590" />
+    <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1600934323427" />
     <state x="198" y="31" width="970" height="737" key="SettingsEditor" timestamp="1600226200698">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="1575" y="85" width="1022" height="737" key="SettingsEditor/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1599533628595" />
     <state x="198" y="31" width="970" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1600226200698" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1600329953151">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1600934943873">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1600329953151" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1600934943873" />
     <state x="1876" y="233" width="945" height="815" key="search.everywhere.popup" timestamp="1600740509371">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
