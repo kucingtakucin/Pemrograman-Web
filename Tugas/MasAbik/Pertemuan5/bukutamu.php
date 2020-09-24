@@ -35,8 +35,12 @@
                 if (empty(trim(($_POST["$key"])))):
                     $errors["$key"] = "Field $key harus diisi";
                     $status = true;
-                else:
-                    $status = false;
+                elseif ($key === 'email' && !filter_var($_POST["$key"], FILTER_SANITIZE_EMAIL)):
+                    $errors["$key"] = "Field $key tidak valid";
+                    $status = true;
+                elseif ($key === 'website' && !filter_var($_POST["$key"], FILTER_SANITIZE_URL)):
+                    $errors["$key"] = "Field $key tidak valid";
+                else: $status = false;
                 endif;
             endforeach;
         endif ?>
@@ -50,7 +54,7 @@
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control <?php if(isset($errors['email'])):?> is-invalid <?php endif ?>" id="email" name="email">
+                    <input type="text" class="form-control <?php if(isset($errors['email'])):?> is-invalid <?php endif ?>" id="email" name="email">
                     <div class="invalid-feedback"><?= $errors['email'] ?></div>
                 </div>
                 <div class="form-group">
@@ -73,7 +77,7 @@
                     <div class="invalid-feedback"><?= $errors['komentar'] ?></div>
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-primary" type="submit" name="submit">Kirim</button>
+                    <button class="btn btn-lg btn-primary" type="submit" name="submit">Kirim</button>
                 </div>
             </form>
         </div>
