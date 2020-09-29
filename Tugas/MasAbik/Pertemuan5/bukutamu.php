@@ -35,7 +35,7 @@
                 if (empty(trim(($_POST["$key"])))):
                     $errors["$key"] = "Field $key harus diisi";
                     $status = true;
-                elseif ($key === 'email' && !filter_var($_POST["$key"], FILTER_SANITIZE_EMAIL)):
+                elseif ($key === 'email' && !filter_v($_POST["$key"], FILTER_SANITIZE_EMAIL)):
                     $errors["$key"] = "Field $key tidak valid";
                     $status = true;
                 elseif ($key === 'website' && !filter_var($_POST["$key"], FILTER_SANITIZE_URL)):
