@@ -9,7 +9,7 @@ $nilai = 0;
 if ($nilai > 50):
     echo "Selamat, kamu lulus!";
 endif;
-
+/*...*/
 // Latihan 2
 $nilai = 0;
 if ($nilai > 50):
