@@ -1,6 +1,10 @@
 <?php
-/*
+/**
  * Copyright (c) 2020. Adam Arthur Faizal. All Right Reserved
+ * @author (Adam Arthur Faizal)
+ * @version (13 Oktober 2020)
+ *
+ * DILARANG COPY PASTE TANPA SE-IJIN PEMILIK REPOSITORY INI!!!
  */
 $komputer = [
     "1A001" => [
@@ -105,7 +109,16 @@ $komputer = [
             </form>
         </div>
         <!--    Modal    -->
-        <?php if(isset($_POST['submit'])): ?>
+        <?php
+        /**
+         * Copyright (c) 2020. Adam Arthur Faizal. All Right Reserved
+         * @author (Adam Arthur Faizal)
+         * @version (13 Oktober 2020)
+         *
+         * DILARANG COPY PASTE TANPA SE-IJIN PEMILIK REPOSITORY INI!!!
+         */
+
+        if(isset($_POST['submit'])): ?>
             <div class="modal fade" id="modal_komputer" tabindex="-1">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
