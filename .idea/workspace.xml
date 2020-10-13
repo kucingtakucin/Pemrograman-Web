@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas6_M3119001_Array.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/MasAbik/Pertemuan8/latihan.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +89,7 @@
       <workItem from="1602051839696" duration="604000" />
       <workItem from="1602122256632" duration="5443000" />
       <workItem from="1602131769568" duration="1880000" />
+      <workItem from="1602574984339" duration="1854000" />
     </task>
     <servers />
   </component>
@@ -115,8 +116,8 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="415" y="246" width="525" height="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1600327822789" />
-    <state x="672" y="503" width="399" height="164" key="NewPhpFileDialog" timestamp="1602036673067">
-      <screen x="0" y="128" width="1920" height="952" />
+    <state x="2398" y="404" width="284" height="164" key="NewPhpFileDialog" timestamp="1602575119838">
+      <screen x="1920" y="101" width="1366" height="768" />
     </state>
     <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1599549804280" />
     <state x="1870" y="355" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600148489951" />
@@ -124,6 +125,7 @@
     <state x="2038" y="426" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1601373635231" />
     <state x="478" y="319" width="399" height="164" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1601433862377" />
     <state x="672" y="503" width="399" height="164" key="NewPhpFileDialog/1920.101.1366.768/0.128.1920.952@0.128.1920.952" timestamp="1602036673067" />
+    <state x="2398" y="404" width="284" height="164" key="NewPhpFileDialog/1920.101.1366.768/0.128.1920.952@1920.101.1366.768" timestamp="1602575119838" />
     <state x="198" y="31" width="970" height="737" key="SettingsEditor" timestamp="1600226200698">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
