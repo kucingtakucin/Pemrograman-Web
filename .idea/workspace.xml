@@ -8,17 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas7Fungsi/KonversiUang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas7Fungsi/NFaktorial.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas7Fungsi/NFaktorialRekursif.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas7Fungsi/Segitiga.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas7Fungsi/TukarData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas7Fungsi/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas7_M319001_Fungsi.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/.~lock.Tugas1_M3119001.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas1_M3119001.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas1_M3119001.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas6Array/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas6Array/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +89,7 @@
       <workItem from="1602122256632" duration="5443000" />
       <workItem from="1602131769568" duration="1880000" />
       <workItem from="1602574984339" duration="12998000" />
+      <workItem from="1602931238884" duration="2785000" />
     </task>
     <servers />
   </component>
