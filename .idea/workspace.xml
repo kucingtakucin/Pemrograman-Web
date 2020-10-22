@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas8/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f4ba0a3d-5869-4901-b424-7375b6772450" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +92,7 @@
       <workItem from="1603245083461" duration="314000" />
       <workItem from="1603245422425" duration="210000" />
       <workItem from="1603245738331" duration="922000" />
-      <workItem from="1603261776729" duration="2518000" />
+      <workItem from="1603261776729" duration="2702000" />
     </task>
     <servers />
   </component>
