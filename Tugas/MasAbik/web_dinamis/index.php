@@ -42,6 +42,9 @@ $controller = new MahasiswaController() ?>
             <?php if (isset($_POST['delete']) && $controller->delete($_POST)): ?>
                 <div id="pesan" data-isi="Berhasil Dihapus"></div>
             <?php endif ?>
+            <?php if (isset($_POST['update']) && $controller->update($_POST)): ?>
+                <div id="pesan" data-isi="Berhasil Diupdate"></div>
+            <?php endif ?>
             <section class="justify-content-center align-items-center d-flex flex-column mt-3">
                 <h1 class="font-weight-bold text-center">DATA MAHASISWA</h1>
                 <!-- Button trigger modal -->
@@ -77,11 +80,9 @@ $controller = new MahasiswaController() ?>
                             <td><?= $student->no_hp ?></td>
                             <td><?= $student->email ?></td>
                             <td>
-                                <a href="" class="badge text-decoration-none bg-warning">Edit</a>
-                                <a href="" class="badge text-decoration-none bg-info">Info</a>
-                                <form action="" class="form-inline" method="post">
-                                    <button class="badge bg-danger btn" name="delete">Delete</button>
-                                </form>
+                                <a href="edit.php?nim=<?= $student->nim ?>" class="badge text-decoration-none bg-warning">Edit</a>
+<!--                            <form action="" class="form-inline" method="post">-->
+                                <button class="badge bg-danger btn" name="delete">Delete</button>
                             </td>
                         </tr>
                     <?php endforeach ?>
@@ -90,13 +91,13 @@ $controller = new MahasiswaController() ?>
         </div>
     </main>
 
-    <!-- Modal 1 -->
-    <div class="modal fade" id="mahasiswatambahModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal 1 - Tambah -->
+    <div class="modal fade" id="mahasiswatambahModal" tabindex="-1" aria-labelledby="mahasiswatambahModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <form action="" method="post">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Tambah Data Mahasiswa</h5>
+                        <h5 class="modal-title" id="mahasiswatambahModalLabel">Tambah Data Mahasiswa</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body m-3">
@@ -160,7 +161,6 @@ $controller = new MahasiswaController() ?>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         <button type="reset" class="btn btn-danger">Reset</button>
                         <button type="submit" class="btn btn-primary" name="submit">Tambah Data</button>
                     </div>
@@ -168,7 +168,6 @@ $controller = new MahasiswaController() ?>
             </div>
         </div>
     </div>
-
 
     <footer>
         <h5 class="text-center font-italic">Copyright &copy; 2020; Adam Arthur Faizal</h5>

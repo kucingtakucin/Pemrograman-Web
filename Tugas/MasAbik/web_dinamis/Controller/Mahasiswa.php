@@ -23,6 +23,24 @@ class Mahasiswa {
     }
 
     /**
+     * @param string $nim
+     * @return mixed
+     */
+    public function edit(string $nim)
+    {
+        return $this->mahasiswa->fetch($nim);
+    }
+
+    /**
+     * @param array $mahasiswa
+     * @return bool
+     */
+    public function update(array $mahasiswa): bool
+    {
+        return $this->mahasiswa->update($mahasiswa);
+    }
+
+    /**
      * @param array $mahasiswa
      * @return bool
      */

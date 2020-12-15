@@ -36,6 +36,18 @@ class Mahasiswa {
     }
 
     /**
+     * @param int $nim
+     * @return mixed
+     */
+    public function fetch(int $nim)
+    {
+        $this->stmt = $this->dbh->prepare('SELECT * FROM mahasiswa WHERE nim = :nim');
+        $this->stmt->bindValue('nim', $nim, PDO::PARAM_INT);
+        $this->stmt->execute();
+        return $this->stmt->fetch(PDO::FETCH_OBJ);
+    }
+
+    /**
      * @param array $mahasiswa
      * @return bool
      */
@@ -53,6 +65,28 @@ class Mahasiswa {
         $this->stmt->bindValue('alamat', $mahasiswa['alamat'], PDO::PARAM_STR);
         $this->stmt->bindValue('no_hp', $mahasiswa['no_hp'], PDO::PARAM_STR);
         $this->stmt->bindValue('email', $mahasiswa['email'], PDO::PARAM_STR);
+        return $this->stmt->execute();
+    }
+
+    /**
+     * @param array $mahasiswa
+     * @return bool
+     */
+    public function update(array $mahasiswa): bool
+    {
+        $this->stmt = $this->dbh->prepare(
+            "UPDATE mahasiswa SET nama = :nama, jenis_kelamin = :jenis_kelamin, tempat_lahir = :tempat_lahir, 
+                    jurusan = :jurusan, alamat = :alamat, no_hp = :no_hp, email = :email WHERE nim = :nim"
+        );
+        $this->stmt->bindValue('nama', $mahasiswa['nama'], PDO::PARAM_STR);
+        $this->stmt->bindValue('jenis_kelamin', $mahasiswa['jenis_kelamin'], PDO::PARAM_STR);
+        $this->stmt->bindValue('tempat_lahir', $mahasiswa['tempat_lahir'], PDO::PARAM_STR);
+        $this->stmt->bindValue('tanggal_lahir', $mahasiswa['tanggal_lahir'], PDO::PARAM_STR);
+        $this->stmt->bindValue('jurusan', $mahasiswa['jurusan'], PDO::PARAM_STR);
+        $this->stmt->bindValue('alamat', $mahasiswa['alamat'], PDO::PARAM_STR);
+        $this->stmt->bindValue('no_hp', $mahasiswa['no_hp'], PDO::PARAM_STR);
+        $this->stmt->bindValue('email', $mahasiswa['email'], PDO::PARAM_STR);
+        $this->stmt->bindValue('nim', $mahasiswa['nim'], PDO::PARAM_INT);
         return $this->stmt->execute();
     }
 
